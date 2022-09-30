@@ -51,7 +51,8 @@
 
 .n-button{
 
-    flex: 2;
+    flex: 1;
+    width: 1rem;
+    height: 2rem;
     
-
 }
