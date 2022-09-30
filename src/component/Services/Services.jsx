@@ -16,7 +16,7 @@ const Services = () =>{
                 
             </div>
             <div className="cards"> 
-                <div style={{top: '-3rem', left: "9rem"}}>
+                <div style={{top: '-4rem', left: "12rem"}}>
                     <Card
                     image={vector1}
                     heading = {'Data Science'}
@@ -24,7 +24,7 @@ const Services = () =>{
                     />
                 </div>
 
-                <div style={{top: "9rem" ,left: "-9rem"}}>
+                <div style={{top: "11rem" ,left: "-9rem"}}>
                     <Card
                     image={vector1}
                     heading = {'Data Science'}
@@ -32,7 +32,23 @@ const Services = () =>{
                     />
                 </div>
 
-                <div style={{top: "12rem" ,left: "-24rem"}}>
+                <div style={{top: "16rem" ,left: "-24rem"}}>
+                    <Card
+                    image={vector1}
+                    heading = {'Data Science'}
+                    details = {"lorem ipsum dolor sit amet"}
+                    />
+                </div>
+
+                <div style={{top: "14rem" ,left: "25rem"}}>
+                    <Card
+                    image={vector1}
+                    heading = {'Data Science'}
+                    details = {"lorem ipsum dolor sit amet"}
+                    />
+                </div>
+                
+                <div style={{top: "-7rem" ,left: "28rem"}}>
                     <Card
                     image={vector1}
                     heading = {'Data Science'}
@@ -46,8 +62,6 @@ const Services = () =>{
                     heading = {'Data Science'}
                     details = {"lorem ipsum dolor sit amet"}
                     />
-
-
                 </div>
             
             </div>

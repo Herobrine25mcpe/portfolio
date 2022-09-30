@@ -1,7 +1,7 @@
 .intro{
     display:flex;
     height: 77vh;
-    margin-top: 7rem;
+    margin-top: 9rem;
 }
 
 .i-left{
@@ -59,7 +59,7 @@
 
 .i-image{
     transform: scale(0.65);
-    top: -1%;
+    top: 5%;
     left: 40%;
 
 }
