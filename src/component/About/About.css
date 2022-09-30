@@ -36,3 +36,9 @@
     margin-top: 1rem;
 
 }
+
+.a-image{
+    transform: scale(0.25);
+    margin-top:-50%;    
+    
+}

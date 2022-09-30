@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.css';
+import dp from '../../img/tarun.jpeg'
 const About = () =>{
     return(
 
@@ -14,8 +15,8 @@ const About = () =>{
             </div>
 
             <div className="a-right">
-                i m right side
-                <img src="" alt="" />
+            
+                <img className="a-image"src={dp} alt="" />
             </div>
 
          </div>

@@ -1,7 +1,7 @@
 .intro{
     display:flex;
     height: 77vh;
-    margin-top: 6rem;
+    margin-top: 7rem;
 }
 
 .i-left{
@@ -27,21 +27,21 @@
 
     color: var(--black);
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .i-name>:nth-child(2){
 
     color: var(--darkpurple);
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .i-name>:nth-child(3){
 
     color: var(--grey);
     font-weight: 100;
-    font-size: 14px;
+    font-size: 18px;
     margin-top: 10px;
 }
 
@@ -58,8 +58,8 @@
 }
 
 .i-image{
-    transform: scale(0.45);
-    top: -10%;
-    left: 25%;
+    transform: scale(0.65);
+    top: -1%;
+    left: 40%;
 
 }
