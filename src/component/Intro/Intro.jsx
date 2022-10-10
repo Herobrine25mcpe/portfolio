@@ -1,13 +1,18 @@
 import React from 'react'
 import './Intro.css'
 import About from '../../img/about.png'
+import { useContext } from "react";
+import { themeContext } from "../../Context";
+
 const Intro =()=>{
+    const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
     return(
         <div className='intro'>
             <div className='i-left'>
 
                 <div className='i-name'>
-                    <span> Hey I am </span>
+                    <span style={{ color: darkMode ? "white" : "" }}> Hey I am </span>
                     <span> Tarun Singh</span>                    
                     <span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, adipisci. Harum beatae, asperiores at architecto dicta adipisci sit possimus omnis magni expedita sunt odit, exercitationem amet dolore ipsa eligendi. Sunt.</span> 
                 </div>

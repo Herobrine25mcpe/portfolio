@@ -3,14 +3,18 @@ import Card from '../Card/Card'
 import './Services.css';
 import vector1 from "../../img/Vector1.png";
 import resume from "./Tarun Singh_Resume.pdf";
+import { useContext } from "react";
+import { themeContext } from "../../Context";
 
 const Services = () =>{
+    const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
 
     return(
 
         <div className="services">
             <div className="s-right">
-                <span> Services </span>
+                <span style={{ color: darkMode ? "white" : "" }}> Services </span>
                 <span> Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br/> Incidunt minima quia ex eos mollitia porro quam ab adipisci quae su.<br/>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
                 <a href={resume} download> <button className="button s-button"> Resume </button></a>
                 
