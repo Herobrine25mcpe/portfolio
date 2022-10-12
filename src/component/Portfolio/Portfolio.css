@@ -4,7 +4,11 @@
     justify-content: center;
     flex-direction:  column;
     height: 70vh;
-    margin-top: 1rem;
+    max-width: 1400px;
+    margin: 5rem auto;
+   padding: 0px 1%;
+   
+    overflow: hidden;
 }
 
 .portfolio span:nth-of-type(1){
@@ -27,6 +31,7 @@
 
 .portfolio .swiper{
     overflow: visible!important;
+    
 }
 
 .portfolio-slider{
