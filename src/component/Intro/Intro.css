@@ -1,7 +1,8 @@
 .intro{
     display:flex;
+    max-width: 1200px;
     height: 77vh;
-    margin-top: 9rem;
+    margin: 9rem auto;
 }
 
 .i-left{

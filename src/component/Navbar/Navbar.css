@@ -3,6 +3,8 @@
     height: 10vh;
     display: flex;
     justify-content: space-between;
+    max-width: 1400px;
+    margin: 2rem auto;
 
 }
 

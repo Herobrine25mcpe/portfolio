@@ -1,9 +1,10 @@
 .services{
-    padding: 0 3rem 0 3rem;
+    
+    max-width: 1200px;
     display: flex;
     height: 20hv;
-    margin-bottom: 8rem;
-    margin-top: 4.5rem;
+    margin: 5rem auto;
+    padding-right: 50px;
         
 
 }

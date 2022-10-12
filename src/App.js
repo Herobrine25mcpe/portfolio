@@ -8,6 +8,7 @@ import Contact from "./component/Contact/Contact";
 import Footer from "./component/Footer/Footer";
 import { useContext } from "react";
 import { themeContext } from "./Context";
+import Experience from "./component/Experience/Experience";
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
       <Intro/>
       <Services/>
       <About/>
+      <Experience/>
       <Portfolio/>
       <Contact/>
       <Footer/>
