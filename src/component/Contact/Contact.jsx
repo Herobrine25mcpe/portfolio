@@ -29,7 +29,7 @@ function Contact() {
 
 
   return (
-    <div className='contact'>
+    <div className='contact' Id='Contact'>
         <div className="c-left">
             <span style={{ color: darkMode ? "white" : "" }}>Get in touch </span>
             <br/>

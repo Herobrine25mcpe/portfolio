@@ -12,7 +12,7 @@ const Footer = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
-    <div className='footer'>
+    <div className='footer' Id='Footer'>
       <img src={wave} alt="" style={{width: '100%'}}/>
       <div className="f-content">
         <a href='' style={{ color: darkMode ? "" : "white" }}><span>tarunsingh199002@gmail.com</span></a>

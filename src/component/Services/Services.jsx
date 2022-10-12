@@ -12,7 +12,7 @@ const Services = () =>{
 
     return(
 
-        <div className="services">
+        <div className="services" >
             <div className="s-right">
                 <span style={{ color: darkMode ? "white" : "" }}> Services </span>
                 <span> Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br/> Incidunt minima quia ex eos mollitia porro quam ab adipisci quae su.<br/>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
@@ -52,7 +52,7 @@ const Services = () =>{
                     />
                 </div>
                 
-                <div style={{top: "-7rem" ,left: "28rem"}}>
+                <div Id='Services'style={{top: "-7rem" ,left: "28rem"}}>
                     <Card
                     image={vector1}
                     heading = {'Data Science'}
