@@ -17,8 +17,7 @@ const Portfolio = () =>{
            
 
                 <span style={{ color: darkMode ? "white" : "" }}>Portfolio</span>
-                <span>Recent projects
-                </span>
+                <span style={{ color: darkMode ? "#c320fa" : "" }}>Recent projects</span>
 
                 <Swiper spaceBetween={35} slidesPerView={3} grabCursor={true} className='portfolio-slider'> 
                     <SwiperSlide>

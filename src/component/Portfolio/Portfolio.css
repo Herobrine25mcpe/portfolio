@@ -51,3 +51,19 @@
     border-radius: 15px;
     filter: drop-shadow( -5px 5px 5px black)
 }
+
+@media screen and (max-width: 480px) {
+
+    .portfolio{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction:  column;
+        margin-top: -30%;
+        padding: 10px 3%;
+
+    }
+
+
+
+}
