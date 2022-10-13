@@ -64,3 +64,24 @@
     left: 40%;
 
 }
+
+@media screen and (max-width: 480px) {
+    .intro {
+      flex-direction: column;
+      gap: 5rem;
+      height: 44rem;
+      margin-top: 1% ;
+    }
+  
+    .i-right {
+      transform: scale(0.8);
+      left: -3rem;
+    }
+    .i-image{
+        transform: scale(0.55);
+        top: -65%;
+        left: -90%;
+    
+    }
+
+  }
