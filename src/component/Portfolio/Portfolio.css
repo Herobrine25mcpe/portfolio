@@ -52,6 +52,10 @@
     filter: drop-shadow( -5px 5px 5px black)
 }
 
+.swiper-container {
+    width: 480px;
+  }
+
 @media screen and (max-width: 480px) {
 
     .portfolio{
@@ -62,9 +66,19 @@
         flex-direction:  column;
         margin-top: -30%;
         
+    }
 
+    .portfolio-slider{
+    
+        margin-top: 3rem;
+        transform: scale(0.8);
+    }
+}
+@media screen and (min-width: 480px) {
+    .swiper-container {
+      width: 480px;
     }
 
 
-
-}
+  }
+  

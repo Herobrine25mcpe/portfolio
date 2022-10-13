@@ -19,7 +19,18 @@ const Portfolio = () =>{
                 <span style={{ color: darkMode ? "white" : "" }}>Portfolio</span>
                 <span style={{ color: darkMode ? "#c320fa" : "" }}>Recent projects</span>
 
-                <Swiper spaceBetween={35} slidesPerView={3} grabCursor={true} className='portfolio-slider'> 
+                <Swiper spaceBetween={100}
+                 slidesPerView={1}
+                breakpoints={{
+                    // when window width is >= 640px
+                    480: {
+                      width: 480,
+                      slidesPerView: 1,
+                      spaceBetween:10,
+                    }
+                  }}
+
+                grabCursor={true} className='portfolio-slider'> 
                     <SwiperSlide>
                         <img src={im1} alt="" />
                     </SwiperSlide>
