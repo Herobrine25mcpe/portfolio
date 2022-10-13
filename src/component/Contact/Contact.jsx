@@ -46,7 +46,7 @@ function Contact() {
 
                 <input type="submit" value="Send" className='button' />
 
-                <span>{done && "thanks for contacting me!"}</span>
+                <span style={{ color: darkMode ? "#c320fa" : "" }}>{done && "thanks for contacting me!"}</span>
             </form>
             
         </div>

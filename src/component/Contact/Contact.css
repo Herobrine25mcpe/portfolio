@@ -54,10 +54,23 @@ textarea{
 }
 
 
-@media screen and (max-width: 480px){
-    .card{
-        width: 60%;
-        justify-content: center;
-        margin-left: 15%;
+@media screen and (max-width: 480px) {
+    .contact{
+        padding: 0;
+        flex-direction: column;
+        margin-top: -10%;
+        gap: 2rem;
+        height: 40rem;
     }
-  }
+    .c-right .user{
+        width: 16rem;
+    }
+
+    .c-left>:nth-child(1){
+
+        color: var(--black);
+        font-weight: bold;
+        font-size: 3rem;
+    }
+
+}   
