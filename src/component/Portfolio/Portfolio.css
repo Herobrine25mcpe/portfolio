@@ -55,12 +55,13 @@
 @media screen and (max-width: 480px) {
 
     .portfolio{
+        
         display:flex;
         align-items: center;
         justify-content: center;
         flex-direction:  column;
         margin-top: -30%;
-        padding: 10px 3%;
+        
 
     }
 

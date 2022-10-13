@@ -72,5 +72,12 @@ textarea{
         font-weight: bold;
         font-size: 3rem;
     }
+    .c-left>:nth-child(3){
+
+        color: var(--darkpurple);
+        font-weight: bold;
+        font-size: 3rem;
+        margin-left: 1%;
+    }
 
 }   
